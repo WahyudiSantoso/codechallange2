@@ -1,4 +1,6 @@
 import Image from "next/image";
+import imgAbout from "/public/image/header-bg.jpg";
+import imgProduct from "/public/image/1.jpg";
 
 export default function Home() {
   return (
@@ -50,9 +52,10 @@ export default function Home() {
 
         <div className="row">
           <div className="about-img">
-            <Image src="img/about-up.jpg" alt="About Up" />
+            <Image src={imgAbout} width={1000} height={300} alt="About Up" />
           </div>
           <div className="content">
+            height={300}
             <h3>Kenapa memilih ceramics kami?</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni,
@@ -78,32 +81,68 @@ export default function Home() {
         </p>
         <div className="row">
           <div className="products-card">
-            <Image src="img/1.jpg" alt="bowl" className="products-card-img" />
+            <Image
+              src={imgProduct}
+              width={1000}
+              height={300}
+              alt="bowl"
+              className="products-card-img"
+            />
             <h3 className="products-card-title">- bowl -</h3>
             <p className="products-card-price">IDR 100K</p>
           </div>
           <div className="products-card">
-            <Image src="img/2.jpg" alt="bowl" className="products-card-img" />
+            <Image
+              src={imgProduct}
+              width={1000}
+              height={300}
+              alt="bowl"
+              className="products-card-img"
+            />
             <h3 className="products-card-title">- allo -</h3>
             <p className="products-card-price">IDR 200K</p>
           </div>
           <div className="products-card">
-            <Image src="img/1.jpg" alt="bowl" className="products-card-img" />
+            <Image
+              src={imgProduct}
+              width={1000}
+              height={300}
+              alt="bowl"
+              className="products-card-img"
+            />
             <h3 className="products-card-title">- bowl -</h3>
             <p className="products-card-price">IDR 100K</p>
           </div>
           <div className="products-card">
-            <Image src="img/1.jpg" alt="bowl" className="products-card-img" />
+            <Image
+              src={imgProduct}
+              width={1000}
+              height={300}
+              alt="bowl"
+              className="products-card-img"
+            />
             <h3 className="products-card-title">- bowl -</h3>
             <p className="products-card-price">IDR 100K</p>
           </div>
           <div className="products-card">
-            <Image src="img/1.jpg" alt="bowl" className="products-card-img" />
+            <Image
+              src={imgProduct}
+              width={1000}
+              height={300}
+              alt="bowl"
+              className="products-card-img"
+            />
             <h3 className="products-card-title">- bowl -</h3>
             <p className="products-card-price">IDR 100K</p>
           </div>
           <div className="products-card">
-            <Image src="img/1.jpg" alt="bowl" className="products-card-img" />
+            <Image
+              src={imgProduct}
+              width={1000}
+              height={300}
+              alt="bowl"
+              className="products-card-img"
+            />
             <h3 className="products-card-title">- bowl -</h3>
             <p className="products-card-price">IDR 100K</p>
           </div>
