@@ -50,7 +50,7 @@ export default function Home() {
 
         <div className="row">
           <div className="about-img">
-            <img src="img/about-up.jpg" alt="About Up" />
+            <Image src="img/about-up.jpg" alt="About Up" />
           </div>
           <div className="content">
             <h3>Kenapa memilih ceramics kami?</h3>
@@ -78,32 +78,32 @@ export default function Home() {
         </p>
         <div className="row">
           <div className="products-card">
-            <img src="img/1.jpg" alt="bowl" className="products-card-img" />
+            <Image src="img/1.jpg" alt="bowl" className="products-card-img" />
             <h3 className="products-card-title">- bowl -</h3>
             <p className="products-card-price">IDR 100K</p>
           </div>
           <div className="products-card">
-            <img src="img/2.jpg" alt="bowl" className="products-card-img" />
+            <Image src="img/2.jpg" alt="bowl" className="products-card-img" />
             <h3 className="products-card-title">- allo -</h3>
             <p className="products-card-price">IDR 200K</p>
           </div>
           <div className="products-card">
-            <img src="img/1.jpg" alt="bowl" className="products-card-img" />
+            <Image src="img/1.jpg" alt="bowl" className="products-card-img" />
             <h3 className="products-card-title">- bowl -</h3>
             <p className="products-card-price">IDR 100K</p>
           </div>
           <div className="products-card">
-            <img src="img/1.jpg" alt="bowl" className="products-card-img" />
+            <Image src="img/1.jpg" alt="bowl" className="products-card-img" />
             <h3 className="products-card-title">- bowl -</h3>
             <p className="products-card-price">IDR 100K</p>
           </div>
           <div className="products-card">
-            <img src="img/1.jpg" alt="bowl" className="products-card-img" />
+            <Image src="img/1.jpg" alt="bowl" className="products-card-img" />
             <h3 className="products-card-title">- bowl -</h3>
             <p className="products-card-price">IDR 100K</p>
           </div>
           <div className="products-card">
-            <img src="img/1.jpg" alt="bowl" className="products-card-img" />
+            <Image src="img/1.jpg" alt="bowl" className="products-card-img" />
             <h3 className="products-card-title">- bowl -</h3>
             <p className="products-card-price">IDR 100K</p>
           </div>
